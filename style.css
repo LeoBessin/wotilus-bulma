@@ -1,0 +1,91 @@
+@import 'bulma/css/bulma.css';
+@import '@creativebulma/bulma-badge/dist/bulma-badge.css';
+.custom-height-full{
+    height: 100vh;
+}
+
+.custom-width-full{
+    width: 100vw;
+}
+
+.custom-fullscreen{
+    width: 100%;
+    height: 100%;
+}
+
+.custom-max-width-mobile{
+    max-width: 468px !important;
+}
+
+.custom-opacity-60{
+    opacity: 0.6;
+}
+
+.custom-absolute{
+    position: absolute;
+}
+
+.custom-position-top-left{
+    top: 4vh;
+    left: 4vh;
+}
+
+.custom-position-top-right{
+    top: 4vh;
+    right: 4vh;
+}
+
+.custom-position-bottom-left{
+    bottom: 4vh;
+    left: 4vh;
+}
+
+.custom-position-bottom-right{
+    bottom: 4vh;
+    right: 4vh;
+}
+
+.custom-size-button{
+    width: 60px;
+    height: 60px;
+}
+
+.custom-rounded-button{
+    border-radius: 40%;
+}
+
+.custom-hover-scale{
+    transition: transform 0.1s;
+}
+
+.custom-hover-scale:hover{
+    transform: scale(1.05);
+    cursor:pointer;
+}
+
+.custom-size-2-3{
+    width: 66.66%;
+    height: 66.66%;
+}
+
+.custom-size-60px{
+    width: 60px;
+    height: 60px;
+}
+
+.custom-shadow{
+    box-shadow: 2px 4px 12px 7px rgba(0, 0, 0, 0.2)
+}
+
+.custom-padding-4{
+    padding: 1rem;
+}
+
+.custom-position-0{
+    top:0;
+    left:0;
+}
+
+.custom-fit-content{
+    width: fit-content;
+}
